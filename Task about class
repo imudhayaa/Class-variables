@@ -1,0 +1,91 @@
+
+OBJECT :
+The things we allocate to class is called objects.
+CONSTRUCTOR :
+
+Constructors are generally used for instantiating an object. 
+The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created.
+
+In Python the __init__() method is called the constructor and is always called when an object is created.
+EXAMPLE :
+Syntax of constructor declaration : 
+
+def __init__(self):
+    # body of the constructor
+    
+TYPES OF CONSTRUCTORS:
+
+DEFAULT CONSTRUCTOR : The default constructor is a simple constructor which doesn’t accept any arguments. 
+                      Its definition has only one argument which is a reference to the instance being constructed.
+EXAMPLE :
+        def __init__(self):
+        self.geek = "Pavi"
+                     
+PARAMETERIZED CONSTRUCTOR : constructor with parameters is known as parameterized constructor. 
+                            The parameterized constructor takes its first argument as a reference to the instance being constructed
+                            known as self and the rest of the arguments are provided by the programmer.
+EXAMPLE :
+        def __init__(self, name, age):
+        self.first = name
+        self.second = age
+        
+INHERITANCE :
+Inheritance is the procedure in which one lass inherits the attributes and methods of another class.
+TYPES:
+1.Single Inheritance
+2.Multiple Inheritance
+3.Multi-level Inheitance
+4.Hierarchical Inheritance
+5.Hybrid Inheritance
+
+STACK :
+ A stack is a linear datastructure that follows the principle of Last In First Out(LIFO).
+ EXAMPLE :
+ Deck of cards, Stack of plates
+OPERATIONS :
+ A stack is an abstract datatype that serves as a collection of elements,with two main principle operations.
+ PUSH---> Which adds an element to the collection
+ POP----> which removes the most recently added elements that was not yet removed.
+ 
+ QUEUE :
+ Queue is a linear data structure that stores items in First In First Out (FIFO) manner.
+ With a queue the least recently added item is removed first. 
+  EXAMPLE :
+ Queue is any queue of consumers for a resource where the consumer that came first is served first.
+ 
+ POLYMORPHISM :
+ It refers to the functions having the same names but carrying different functionalities.
+ It has many forms.
+  EXAMPLE :
+  A person at the same time can have different charateristics.
+  ADVANTAGES :
+  --> It helps the programmer to reuse codes.
+  --> Easy to debug codes.
+  --> Single variable can be used to store multiple datatypes.
+  DISADVANTAGES :
+  --> Polymorphism ends up raising issus in real time.
+  --> Reduces the readability of the code
+  --> Little challenging to implement
+  
+  DATA ABSTRACTION :
+   It shows only essential attributes and hides unnecessary information. Representing essential features without including the background details or explanation.
+   EXAMPLE :
+   A television set is an object.It can be used directly through its interface.
+   ADVANTAGE :
+   -->Avoid code duplication.
+   -->Increases reusability.
+   -->Reduction of complexity.
+   DISADVANTAGE :
+   -->Loss of context
+   
+   ENCAPSULATION :
+    It is a way to ensure security. It hides the data from the access of outsiders.
+    If an organisation  wants to protect an object from unwanted access by clients then encapsulation is the way to ensure.
+    EXAMPLE :
+    When you log into your email accounts like gmail,yahoo, there is a lot of internal processes taking place in the backend you have no control over it.
+    ADVANTAGE :
+    -->Protects n object from unwanted access.
+    -->Allow developers to bundle data 
+    DISADVANTAGES :
+    --> Code size 
+    --> More instruction
